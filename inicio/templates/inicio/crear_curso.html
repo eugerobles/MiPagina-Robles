@@ -1,0 +1,17 @@
+{% extends ´comapartidos/base.html%}
+
+{%block head%}<title> crear curso <title>{%endblock% 'head'%}
+
+{%block header_h1%}
+Crear curso
+{%endblock% 'header_h1'%}
+
+{%block main %}
+<form action="">
+    {%{% csrf_token %}%}
+    <p>nombre <input type="nombre"></p>
+    <p> apellido<input type="apellido"></p>
+    <input type="button" value="">
+</form>
+
+{%endblock% main %}
