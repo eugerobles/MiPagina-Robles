@@ -11,8 +11,8 @@ def inicio(request):
     return render (request, r'\inicio\inicio.html', datos)
     
 def crear_curso(request):
-    if request.method = 'POST':
-        if formulario.is.valid()
+    if request.method == 'POST':
+        if formulario.is_valid():
     curso= Curso (nombre=request.GET.ge('titulo'), apellido=request.GET'numero')
     curso.save()
     
